@@ -28,8 +28,9 @@ Project setup/Running the tests
 -------------
 Project run test by maven command, like:
 
+mvn clean test -DsuiteXmlFile=ui.xml   (for the UI tests)
 
-mvn clean test
+mvn clean test -DsuiteXmlFile=api.xml   (for the API tests)
 
 
 Report generating
